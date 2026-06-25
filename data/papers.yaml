@@ -1,0 +1,87 @@
+- title: "Do Front-of-Package Sugar Labels Shift Consumer Demand away from Diabetes-Risk Foods"
+  authors: ["Eric Ayamga"]
+  year: 2025
+  status: "working paper"
+  venue: ""
+  pdf: ""
+  link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5784502"
+  abstract: "This paper evaluates the impact of a U.S. front-of-package (FOP) sugar labeling policy on consumer demand for ready-to-eat (RTE) cereals. Using NielsenIQ retail scanner data and a difference-in-differences design, we find no evidence of product reformulation or significant demand shifts around the 5- and 10-gram added sugar thresholds following the introduction of the table-format FOP label. Although we detect a modest substitution pattern beginning around 7.5 grams of added sugar, the magnitude is economically small and unlikely to meaningfully affect diet-related health outcomes. To rationalize these limited effects, we develop and estimate a structural Berry–Levinsohn–Pakes (BLP) demand model augmented with a rational inattention framework in which information processing costs enter utility directly. We allow the cost of processing nutritional information to vary by label format, with the highest cost associated with table-format labels, followed by letter-grade labels, color-grade labels, and the lowest cost for warning labels. Structural estimates indicate that high information-processing costs substantially attenuate the effectiveness of table-format labels. Counterfactual simulations show that simplified formats—particularly warning labels—significantly reduce demand for high-sugar cereals and generate welfare gains. Overall, our findings suggest that reducing cognitive costs through simplified FOP designs can meaningfully improve consumer welfare and shift consumption away from unhealthy products."
+  job_market_paper: true
+  tags: ["health economics", "industrial organization", "information asymmetry"]
+
+- title: "The Cost of Inaccessibility: Retail Discrimination and Mobility-Constrained Consumers"
+  authors: ["Eric Ayamga", "Li Zeng", "Victoria Hang"]
+  year: 2025
+  status: "working paper"
+  venue: ""
+  pdf: ""
+  link: ""
+  abstract: "This study investigates whether individuals with mobility-related health conditions face systematic disadvantages in retail pricing, both in physical stores and on online platforms."
+  job_market_paper: false
+  tags: ["industrial organization", "health economics"]
+
+- title: "Hotter Days, Sweet Choices: Temperature Extremes and Nutritional Demand"
+  authors: ["Eric Ayamga"]
+  year: 2025
+  status: "working paper"
+  venue: ""
+  pdf: ""
+  link: ""
+  abstract: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars."
+  job_market_paper: false
+  tags: ["health economics", "climate"]
+
+- title: "Decomposed Oil-Driven Inflation and Asymmetric Shocks"
+  authors: ["Joseph Agyapong"]
+  year: 2025
+  status: "published"
+  venue: "Studies in Nonlinear Dynamics & Econometrics"
+  pdf: ""
+  link: "https://doi.org/10.1515/snde-2025-0067"
+  abstract: ""
+  job_market_paper: false
+  tags: ["macroeconomics", "energy"]
+
+- title: "Forecasting the Future: Applying Bayesian Model Averaging for Exchange Rates Drivers in Ghana"
+  authors: ["J. Agyapong", "S.I. Anyars"]
+  year: 2024
+  status: "published"
+  venue: "Applied Economics"
+  pdf: ""
+  link: "https://doi.org/10.1080/00036846.2024.2339188"
+  abstract: ""
+  job_market_paper: false
+  tags: ["forecasting", "econometrics"]
+
+- title: "The Environmental Impact of International Trade in Sub-Saharan Africa: Exploring the Role of Policy and Institutions for Environmental Sustainability"
+  authors: ["D. Mpuure", "E. Doudu", "AB. Abille"]
+  year: 2024
+  status: "published"
+  venue: "Research in Globalization"
+  pdf: ""
+  link: "https://doi.org/10.1016/j.resglo.2024.100240"
+  abstract: ""
+  job_market_paper: false
+  tags: ["environmental economics", "trade"]
+
+- title: "Pricing of Climate Risks in Capital Markets of South Africa"
+  authors: ["E. Amporfu", "D. Sakyi"]
+  year: 2024
+  status: "published"
+  venue: "Journal of Developing Areas"
+  pdf: ""
+  link: "https://doi.org/10.1353/jda.2024.a924528"
+  abstract: ""
+  job_market_paper: false
+  tags: ["climate", "finance"]
+
+- title: "The Macroeconomic Impact of Energy Transition Metal Prices: Nonlinear Evidence from IEA Economies"
+  authors: ["J. Agyapong", "Lordia Yalley"]
+  year: 2024
+  status: "published"
+  venue: "Journal of Commodity Markets"
+  pdf: ""
+  link: ""
+  abstract: ""
+  job_market_paper: false
+  tags: ["energy transition", "macroeconomics"]

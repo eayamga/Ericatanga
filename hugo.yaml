@@ -1,0 +1,86 @@
+baseURL: "https://eayamga.github.io/Ericatanga/"
+title: "Eric Ayamga"
+languageCode: en-us
+
+params:
+  description: "PhD Candidate, Department of Economics, Texas Tech University"
+  author: "Eric Ayamga"
+  email: "ericayamga290@gmail.com"
+  program: "PhD Candidate, Department of Economics, Texas Tech University"
+  year: "Fifth-year PhD Candidate"
+  tagline: "I study health economics through the lens of industrial organization, examining how information asymmetries affect consumer choices and firm behavior."
+  photo: "images/photo.jpg"
+  cv_url: "https://www.overleaf.com/project/696d8cfeadb7ffc183e500db"
+  cv_local: "files/cv.pdf"
+  initials: "EA"
+  advisor:
+    name: "Michael Noel"
+    title: "Professor of Economics, Texas Tech University"
+    email: "Michael.Noah@ttu.edu"
+  committee:
+    - name: "Victoria (Ziqi) Hang"
+      title: "Assistant Professor of Economics, Texas Tech University"
+      email: "Victoria.Hang@ttu.edu"
+    - name: "Misak Avestiyan"
+      title: "Associate Professor of Economics, Texas Tech University"
+      email: "Misak.Avestiyan@ttu.edu"
+    - name: "Aiday Sikhova"
+      title: "Assistant Professor of Economics, Texas Tech University"
+      email: "asikhova@ttu.edu"
+  affiliations:
+    - "American Economic Association"
+    - "American Society of Health Economists"
+    - "Southern Economic Association"
+    - "Midwest Economic Association"
+    - "Industrial Organization Society"
+  education:
+    - degree: "M.Phil. in Economics"
+      institution: "Kwame Nkrumah University of Science and Technology"
+      year: "2022"
+    - degree: "B.A. in Economics"
+      institution: "Kwame Nkrumah University of Science and Technology"
+      year: "2019"
+  interests:
+    - "Health policy"
+    - "Industrial organization"
+    - "Information asymmetry"
+    - "Energy transition"
+  social:
+    - name: "Email"
+      url: "mailto:ericayamga290@gmail.com"
+      icon: "email"
+    - name: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=W5ep9PUAAAAJ&hl=en"
+      icon: "scholar"
+    - name: "X"
+      url: "https://x.com/EricAyamga10802"
+      icon: "x"
+    - name: "GitHub"
+      url: "https://github.com/eayamga"
+      icon: "github"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/eric-atanga-ayamga-443aa7145/"
+      icon: "linkedin"
+    - name: "ORCID"
+      url: "https://orcid.org/0000-0002-9803-3809"
+      icon: "orcid"
+
+menu:
+  main:
+    - name: Research
+      url: "/#research"
+      weight: 10
+    - name: Teaching
+      url: "/#teaching"
+      weight: 20
+    - name: CV
+      url: "https://www.overleaf.com/project/696d8cfeadb7ffc183e500db"
+      weight: 30
+    - name: Contact
+      url: "/#contact"
+      weight: 40
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

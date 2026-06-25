@@ -1,0 +1,215 @@
+{{ define "main" }}
+<div class="container">
+
+  {{/* Hero */}}
+  <section class="hero" id="about" aria-label="About">
+    <div class="hero-photo">
+      <img src="{{ .Site.Params.photo | relURL }}" alt="Portrait of {{ .Site.Params.author }}" width="160" height="160">
+    </div>
+    <div class="hero-content">
+      <h1>{{ .Site.Title }}</h1>
+      <p class="hero-meta">{{ .Site.Params.program }}</p>
+      <p class="hero-meta">{{ .Site.Params.year }}</p>
+      <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+      <div class="hero-actions">
+        <a class="btn-cv" href="{{ .Site.Params.cv_url }}" target="_blank" rel="noopener noreferrer">CV (PDF)</a>
+        <ul class="social-links" aria-label="Social links">
+          {{ range .Site.Params.social }}
+          <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {{/* Bio */}}
+  <section id="bio" aria-labelledby="bio-heading">
+    <h2 id="bio-heading">About</h2>
+    <div class="bio-content">
+      {{ .Content }}
+    </div>
+    {{ with .Site.Params.interests }}
+    <ul class="interests" aria-label="Research interests">
+      {{ range . }}
+      <li class="interest-tag">{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </section>
+
+  {{/* Research */}}
+  {{ $papers := site.Data.papers }}
+  {{ if $papers }}
+  <section id="research" aria-labelledby="research-heading">
+    <h2 id="research-heading">Research</h2>
+
+    {{ range $papers }}
+      {{ if .job_market_paper }}
+      <div class="jmp-card">
+        <span class="status-badge">Job Market Paper</span>
+        <h3 class="paper-title">
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+          {{ else if .pdf }}
+          <a href="{{ .pdf | relURL }}">{{ .title }}</a>
+          {{ else }}
+          {{ .title }}
+          {{ end }}
+        </h3>
+        <p class="paper-authors">{{ delimit .authors ", " }}</p>
+        {{ with .abstract }}
+        <p class="abstract">{{ . }}</p>
+        {{ end }}
+        {{ if .link }}
+        <p><a href="{{ .link }}" target="_blank" rel="noopener noreferrer">Read paper (SSRN) →</a></p>
+        {{ end }}
+      </div>
+      {{ end }}
+    {{ end }}
+
+    {{ $working := where $papers "status" "working paper" }}
+    {{ $working = where $working "job_market_paper" false }}
+    {{ if $working }}
+    <h3>Working Papers</h3>
+    <ul class="paper-list">
+      {{ range $working }}
+      <li class="paper-item">
+        <p class="paper-authors">{{ delimit .authors ", " }} ({{ .year }})</p>
+        <p class="paper-title-line">
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+          {{ else if .pdf }}
+          <a href="{{ .pdf | relURL }}">{{ .title }}</a>
+          {{ else }}
+          {{ .title }}
+          {{ end }}
+          <span class="status-badge">Working Paper</span>
+        </p>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ $published := where $papers "status" "published" }}
+    {{ if $published }}
+    <h3>Publications</h3>
+    <ul class="paper-list">
+      {{ range $published }}
+      <li class="paper-item">
+        <p class="paper-authors">{{ delimit .authors ", " }} ({{ .year }})</p>
+        <p class="paper-title-line">
+          {{ if .link }}
+          <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+          {{ else if .pdf }}
+          <a href="{{ .pdf | relURL }}">{{ .title }}</a>
+          {{ else }}
+          {{ .title }}
+          {{ end }}
+        </p>
+        {{ with .venue }}
+        <p class="paper-venue"><em>{{ . }}</em></p>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{/* Software */}}
+  {{ with site.Data.projects }}
+  <section id="software" aria-labelledby="software-heading">
+    <h2 id="software-heading">Software &amp; Tools</h2>
+    <div class="software-grid">
+      {{ range . }}
+      <div class="software-item">
+        <span class="software-name">{{ .name }}</span>
+        <span class="software-desc">{{ .description }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* Teaching */}}
+  {{ with site.Data.teaching }}
+  <section id="teaching" aria-labelledby="teaching-heading">
+    <h2 id="teaching-heading">Teaching</h2>
+    <ul class="simple-list">
+      {{ range . }}
+      <li>
+        <span class="list-title">{{ .course }}</span>
+        <span class="list-meta"> — {{ .role }}, {{ .institution }}, {{ .term }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* Awards */}}
+  {{ with site.Data.awards }}
+  <section id="awards" aria-labelledby="awards-heading">
+    <h2 id="awards-heading">Awards &amp; Fellowships</h2>
+    <ul class="simple-list">
+      {{ range . }}
+      <li>
+        <span class="list-title">{{ .title }}</span>
+        <span class="list-meta"> — {{ .organization }}, {{ .year }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* Presentations / News */}}
+  {{ with site.Data.presentations }}
+  <section id="news" aria-labelledby="news-heading">
+    <h2 id="news-heading">Presentations</h2>
+    <ul class="simple-list">
+      {{ range . }}
+      <li>
+        <span class="list-title">{{ .title }}</span>
+        <span class="list-meta"> — {{ .venue }}, {{ .date }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* Education & affiliations in contact section area */}}
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <div class="contact-block">
+      <p><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+      <p><strong>Advisor:</strong> {{ .Site.Params.advisor.name }}, {{ .Site.Params.advisor.title }} (<a href="mailto:{{ .Site.Params.advisor.email }}">{{ .Site.Params.advisor.email }}</a>)</p>
+    </div>
+
+    <div class="detail-block">
+      <h3>Education</h3>
+      <ul class="detail-list">
+        {{ range .Site.Params.education }}
+        <li>{{ .degree }}, {{ .institution }}, {{ .year }}</li>
+        {{ end }}
+      </ul>
+    </div>
+
+    {{ with .Site.Params.affiliations }}
+    <div class="detail-block">
+      <h3>Professional Affiliations</h3>
+      <ul class="detail-list">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    <ul class="social-links" aria-label="Social links">
+      {{ range .Site.Params.social }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+
+</div>
+{{ end }}

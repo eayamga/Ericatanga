@@ -1,0 +1,24 @@
+- name: "Stata"
+  description: "Statistical analysis and econometric estimation."
+  url: ""
+  language: "Stata"
+
+- name: "Python"
+  description: "Data processing, structural demand estimation, and research automation."
+  url: ""
+  language: "Python"
+
+- name: "R"
+  description: "Statistical computing and visualization."
+  url: ""
+  language: "R"
+
+- name: "LaTeX"
+  description: "Academic writing and document preparation."
+  url: ""
+  language: "LaTeX"
+
+- name: "MATLAB"
+  description: "Numerical computation and modeling."
+  url: ""
+  language: "MATLAB"
