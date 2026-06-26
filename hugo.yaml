@@ -10,7 +10,7 @@ params:
   year: "Fifth-year PhD Candidate"
   tagline: "I study health economics through the lens of industrial organization, examining how information asymmetries affect consumer choices and firm behavior."
   photo: "images/photo.jpg"
-  cv_url: 
+  #cv_url: 
   cv_local: "/files/Ayamga.pdf"
   initials: "EA"
   advisor:
