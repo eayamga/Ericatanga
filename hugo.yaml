@@ -11,7 +11,7 @@ params:
   tagline: "I study health economics through the lens of industrial organization, examining how information asymmetries affect consumer choices and firm behavior."
   photo: "images/photo.jpg"
   cv_url: "https://www.overleaf.com/project/696d8cfeadb7ffc183e500db"
-  cv_local: "files/cv.pdf"
+  cv_local: "Ayamga.pdf"
   initials: "EA"
   advisor:
     name: "Michael Noel"
