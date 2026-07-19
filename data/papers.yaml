@@ -16,7 +16,7 @@
   venue: ""
   pdf: ""
   link: "https://ssrn.com/abstract=5496018"
-  abstract: "This study investigates whether individuals with mobility-related health conditions face systematic disadvantages in retail pricing, both in physical stores and on online platforms."
+  abstract: "Retail prices are increasingly accessed through digital platforms, yet not all consumers benefit equally. While prior research identifies price disparities across consumer groups, less is known about how such disparities arise and whether digital retail mitigates or reproduces them. This study examines mobility constraints associated with health conditions and physical limitations as an underexplored source of unequal price access. Using transaction-level data from both offline (NielsenIQ) and online (Open E-Commerce 1.0), we compare price outcomes between mobility-constrained and non-constrained consumers. We adopt a decomposition-based approach that distinguishes between differences driven by product selection and those that persist beyond selection effects. We find that mobility-constrained consumers pay higher prices on average in both settings, while within-product disparities are more persistent in the online environment. While part of the difference is explained by product choice, a meaningful gap remains among comparable purchases, suggesting unequal access to favorable prices. These findings contribute to research on digital inequality and retail information systems by identifying mobility constraints as a distinct source of price inequality and by showing that digital access does not necessarily translate into equal access to favorable prices."
   job_market_paper: false
   tags: ["industrial organization", "health economics"]
 
@@ -26,7 +26,15 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: ""
+  link: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars.
+Motivated by growing concerns about the interaction between climate change and public health, I
+investigate whether increases in the number of extremely hot days causally affect dietary choices.
+Using high-frequency retail scanner data combined with detailed local weather information, I
+construct measures of extreme heat exposure based on the number of days exceeding location specific temperature thresholds. Exploiting plausibly exogenous variation in temperature across
+time and space, I estimate the effect of extreme heat on purchases of sugar-intensive products
+within a panel data framework that controls for product, location, and time fixed effects. The
+results show that an increase in the number of extreme hot days leads to a statistically and
+economically significant rise in the demand for added sugars. The effect is nonlinear, with stronger responses observed at higher temperature thresholds and during prolonged heat episodes. These findings have important implications for both climate policy and public health."
   abstract: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars."
   job_market_paper: false
   tags: ["health economics", "climate"]
