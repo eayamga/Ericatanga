@@ -26,7 +26,8 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars.
+  link: ""
+  abstract: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars.
 Motivated by growing concerns about the interaction between climate change and public health, I
 investigate whether increases in the number of extremely hot days causally affect dietary choices.
 Using high-frequency retail scanner data combined with detailed local weather information, I
@@ -35,7 +36,6 @@ time and space, I estimate the effect of extreme heat on purchases of sugar-inte
 within a panel data framework that controls for product, location, and time fixed effects. The
 results show that an increase in the number of extreme hot days leads to a statistically and
 economically significant rise in the demand for added sugars. The effect is nonlinear, with stronger responses observed at higher temperature thresholds and during prolonged heat episodes. These findings have important implications for both climate policy and public health."
-  abstract: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars."
   job_market_paper: false
   tags: ["health economics", "climate"]
 
