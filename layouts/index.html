@@ -85,6 +85,9 @@
           {{ end }}
           <span class="status-badge">Working Paper</span>
         </p>
+        {{ with .abstract }}
+      <p class="abstract">{{ . }}</p>
+      {{ end }}
       </li>
       {{ end }}
     </ul>
