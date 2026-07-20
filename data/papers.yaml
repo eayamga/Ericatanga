@@ -11,7 +11,7 @@
 
 - title: "The Cost of Inaccessibility: Retail Discrimination and Mobility-Constrained Consumers"
   authors: ["Eric Ayamga", "Li Zeng", "Victoria Hang"]
-  year: 2025
+  year: 2026
   status: "working paper"
   venue: ""
   pdf: ""
@@ -22,7 +22,7 @@
 
 - title: "Hotter Days, Sweet Choices: Temperature Extremes and Nutritional Demand"
   authors: ["Eric Ayamga"]
-  year: 2025
+  year: 2026
   status: "working paper"
   venue: ""
   pdf: ""
@@ -31,8 +31,19 @@
   job_market_paper: false
   tags: ["health economics", "climate"]
 
+- title: "Front-of-Package Sugar Label and Consumer Demand: Heterogeneous Evidence Across Categories"
+  authors: ["Eric Ayamga"]
+  year: 2026
+  status: "working paper"
+  venue: ""
+  pdf: ""
+  link: ""
+  abstract: ""
+  job_market_paper: false
+  tags: ["industrial organization", "energy"]
+
 - title: "Decomposed Oil-Driven Inflation and Asymmetric Shocks"
-  authors: ["Joseph Agyapong", "Eric Ayamga"]
+  authors: ["Joseph Agyapong", "health economic", "food policy"]
   year: 2025
   status: "published"
   venue: "Studies in Nonlinear Dynamics & Econometrics"
