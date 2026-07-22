@@ -203,6 +203,19 @@
   </section>
   {{ end }}
 
+   {{ with .Site.Params.affiliations }}
+  <div class="detail-block">
+    <h3>Professional Affiliations</h3>
+    <ul class="detail-list">
+      {{ range . }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
   {{/* affiliations in contact section area */}}
   <section id="contact" aria-labelledby="contact-heading">
     <h2 id="contact-heading">Contact</h2>
@@ -210,17 +223,6 @@
       <p><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
       <p><strong>Advisor:</strong> {{ .Site.Params.advisor.name }}, {{ .Site.Params.advisor.title }} (<a href="mailto:{{ .Site.Params.advisor.email }}">{{ .Site.Params.advisor.email }}</a>)</p>
     </div>
-
-    {{ with .Site.Params.affiliations }}
-    <div class="detail-block">
-      <h3>Professional Affiliations</h3>
-      <ul class="detail-list">
-        {{ range . }}
-        <li>{{ . }}</li>
-        {{ end }}
-      </ul>
-    </div>
-    {{ end }}
 
     <ul class="social-links" aria-label="Social links">
       {{ range .Site.Params.social }}
