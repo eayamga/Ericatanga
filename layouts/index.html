@@ -22,6 +22,30 @@
     </div>
   </section>
 
+  {{/* Interests */}}
+{{ with .Site.Params.interests }}
+<section id="interests" aria-labelledby="interests-heading">
+  <h2 id="interests-heading">Research Interests</h2>
+  <ul class="interests" aria-label="Research interests">
+    {{ range . }}
+    <li class="interest-tag">{{ . }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+
+{{/* Education */}}
+{{ with .Site.Params.education }}
+<section id="education" aria-labelledby="education-heading">
+  <h2 id="education-heading">Education</h2>
+  <ul class="detail-list">
+    {{ range . }}
+    <li>{{ .degree }}, {{ .institution }}, {{ .year }}</li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
+
   {{/* Bio */}}
   <section id="bio" aria-labelledby="bio-heading">
     <h2 id="bio-heading">About</h2>
