@@ -211,15 +211,6 @@
       <p><strong>Advisor:</strong> {{ .Site.Params.advisor.name }}, {{ .Site.Params.advisor.title }} (<a href="mailto:{{ .Site.Params.advisor.email }}">{{ .Site.Params.advisor.email }}</a>)</p>
     </div>
 
-    <div class="detail-block">
-      <h3>Education</h3>
-      <ul class="detail-list">
-        {{ range .Site.Params.education }}
-        <li>{{ .degree }}, {{ .institution }}, {{ .year }}</li>
-        {{ end }}
-      </ul>
-    </div>
-
     {{ with .Site.Params.affiliations }}
     <div class="detail-block">
       <h3>Professional Affiliations</h3>
