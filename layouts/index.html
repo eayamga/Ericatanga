@@ -48,12 +48,12 @@
 
   {{/* Bio */}}
   <section id="bio" aria-labelledby="bio-heading">
-    <h2 id="bio-heading">About</h2>
+    <h2 id="bio-heading"></h2>
     <div class="bio-content">
       {{ .Content }}
     </div>
     {{ with .Site.Params.interests }}
-    <ul class="interests" aria-label="Research interests">
+    <ul class="interests" aria-label="">
       {{ range . }}
       <li class="interest-tag">{{ . }}</li>
       {{ end }}
