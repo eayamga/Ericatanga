@@ -10,8 +10,8 @@ params:
   year: "Fifth-year PhD Candidate"
   tagline: "I study health economics and public policy through the lens of industrial organization, examining how information asymmetries affect consumer choices and firm behavior."
   photo: "images/photo.jpg"
-  cv_url: "https://www.dropbox.com/home/PhD%20papers?preview=Ayamga+cv.pdf&quickview=id%3AHzw9gZ3aKGAAAAAAAAAIqQ"
-  cv_local: "/files/cv.pdf"
+  cv_url: "/files/Ayamga-2.pdf"
+  cv_local: ""
   initials: "EA"
   advisor:
     name: "Michael Noel"
@@ -75,7 +75,7 @@ menu:
       url: "/#teaching"
       weight: 20
     - name: CV
-      url: "https://www.dropbox.com/home/PhD%20papers?preview=Ayamga+cv.pdf&quickview=id%3AHzw9gZ3aKGAAAAAAAAAIqQ"
+      url: "/files/Ayamga-2.pdf"
       weight: 30
     - name: Contact
       url: "/#contact"
