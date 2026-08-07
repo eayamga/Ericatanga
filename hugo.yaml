@@ -75,7 +75,7 @@ menu:
       url: "/#teaching"
       weight: 20
     - name: CV
-      url: "/files/Ayamga-2.pdf"
+      url: "https://drive.google.com/file/d/15oTkadJnKf66_Kd6Ej9-4jEDSJwEK1TZ/view?usp=share_link"
       weight: 30
     - name: Contact
       url: "/#contact"
