@@ -15,7 +15,7 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: "https://ssrn.com/abstract=5496018"
+  link: "https://drive.google.com/file/d/10wQGLHm4svHjTavb1xOKA3nYhG0G83q9/view?usp=sharing"
   abstract: "Retail prices are increasingly accessed through digital platforms, yet not all consumers benefit equally. While prior research identifies price disparities across consumer groups, less is known about how such disparities arise and whether digital retail mitigates or reproduces them. This study examines mobility constraints associated with health conditions and physical limitations as an underexplored source of unequal price access. Using transaction-level data from both offline (NielsenIQ) and online (Open E-Commerce 1.0), we compare price outcomes between mobility-constrained and non-constrained consumers. We adopt a decomposition-based approach that distinguishes between differences driven by product selection and those that persist beyond selection effects. We find that mobility-constrained consumers pay higher prices on average in both settings, while within-product disparities are more persistent in the online environment. While part of the difference is explained by product choice, a meaningful gap remains among comparable purchases, suggesting unequal access to favorable prices. These findings contribute to research on digital inequality and retail information systems by identifying mobility constraints as a distinct source of price inequality and by showing that digital access does not necessarily translate into equal access to favorable prices."
   job_market_paper: false
   tags: ["industrial organization", "health economics"]
