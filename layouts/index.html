@@ -188,6 +188,20 @@
   </section>
   {{ end }}
 
+   {{/* Referee Service */}}
+  {{ with site.Data.review }}
+  <section id="news" aria-labelledby="news-heading">
+    <h2 id="news-heading">review</h2>
+    <ul class="simple-list">
+      {{ range . }}
+      <li>
+        <span class="list-title">{{ .title }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
    {{ with .Site.Params.affiliations }}
   <div class="detail-block">
     <h3>Professional Affiliations</h3>
