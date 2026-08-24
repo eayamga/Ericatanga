@@ -212,64 +212,15 @@
     </ul>
   </div>
   {{ end }}
+ {{/* contact */}} 
+  <section id="contact" aria-labelledby="contact-heading"> 
+    <h2 id="contact-heading">Contact</h2> 
+    <ul class="detail-list"> 
+      <li><strong>Email:</strong> <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li> 
+      <li><strong>Advisor:</strong> {{ .Site.Params.advisor.name }}, {{ .Site.Params.advisor.title }} (<a href="mailto:{{ .Site.Params.advisor.email }}">{{ .Site.Params.advisor.email }}</a>)</li> 
+    </ul> 
+  </section> 
 
-{{/* contact */}}
-<section id="contact" aria-labelledby="contact-heading">
-  <h2 id="contact-heading">Contact</h2>
-
-  <ul class="detail-list">
-    <li>
-      <strong>Email:</strong>
-      <a href="mailto:{{ .Site.Params.email }}">
-        {{ .Site.Params.email }}
-      </a>
-    </li>
-
-    <li>
-      <strong>Department:</strong>
-      Department of Economics, Texas Tech University
-    </li>
-
-    <li>
-      <strong>Google Scholar:</strong>
-      <a href="https://scholar.google.com/citations?user=W5ep9PUAAAAJ&hl=en&authuser=1"
-         target="_blank"
-         rel="noopener noreferrer">
-        Google Scholar Profile
-      </a>
-    </li>
-
-    <li>
-      <strong>ORCID:</strong>
-      <a href="https://orcid.org/0000-0002-9803-3809"
-         target="_blank"
-         rel="noopener noreferrer">
-        0000-0002-9803-3809
-      </a>
-    </li>
-
-    <li>
-      <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/feed/"
-         target="_blank"
-         rel="noopener noreferrer">
-        LinkedIn
-      </a>
-    </li>
-
-    <li>
-      <strong>Advisor:</strong>
-      {{ .Site.Params.advisor.name }},
-      {{ .Site.Params.advisor.title }}
-      (<a href="mailto:{{ .Site.Params.advisor.email }}">
-        {{ .Site.Params.advisor.email }}
-      </a>)
-    </li>
-  </ul>
-</section>
-
-</div>
+</div> 
 {{ end }}
-
-</div>
-{{ end }}
+ 
