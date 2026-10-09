@@ -38,8 +38,7 @@
   venue: ""
   pdf: ""
   link: "https://drive.google.com/file/d/1D3BOrnzv9zqnXJO1AQBDcC_b-37NgXRZ/view?usp=share_link"
-  abstract: "This paper provides the first empirical evidence on the demand- and supply-side effects of this disclosure-based labeling policy, using nationally representative Nielsen retail scanner data (2018–2023) covering nine major breakfast and snack food categories.  
-On the demand side, I find substantial heterogeneity across categories: within-category substitution away from high-sugar products is concentrated in categories with abundant low-sugar substitutes, while cross-category substitution is limited and occurs mainly within sugar tiers rather than across product types. On the supply side, manufacturers responded through modest reformulation, and product turnover disproportionately favored low-sugar items, with high-sugar products more likely to exit and new entrants skewing toward lower sugar content. These results suggest that even a disclosure-only labeling policy, without interpretive warnings or thresholds, can shift both consumer purchases and firm product strategy, but that its effectiveness depends heavily on category-specific substitution possibilities with implications for how labeling policies should be designed and evaluated."
+  abstract: "This paper provides the first empirical evidence on the demand- and supply-side effects of this disclosure-based labeling policy, using nationally representative Nielsen retail scanner data (2018–2023) covering nine major breakfast and snack food categories. On the demand side, I find substantial heterogeneity across categories: within-category substitution away from high-sugar products is concentrated in categories with abundant low-sugar substitutes, while cross-category substitution is limited and occurs mainly within sugar tiers rather than across product types. On the supply side, manufacturers responded through modest reformulation, and product turnover disproportionately favored low-sugar items, with high-sugar products more likely to exit and new entrants skewing toward lower sugar content. These results suggest that even a disclosure-only labeling policy, without interpretive warnings or thresholds, can shift both consumer purchases and firm product strategy, but that its effectiveness depends heavily on category-specific substitution possibilities with implications for how labeling policies should be designed and evaluated."
   job_market_paper: false
   tags: ["industrial organization", "health economics", "public policy"]
 
@@ -54,7 +53,7 @@ On the demand side, I find substantial heterogeneity across categories: within-c
   job_market_paper: false
   tags: ["industrial organization", "health economics", "public policy"]
 
-  - title: "Endogenous Firm Responses to Information Policies"
+- title: "Endogenous Firm Responses to Information Policies"
   authors: ["Eric Ayamga"]
   year: 2026
   status: "working paper"
