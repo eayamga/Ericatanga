@@ -10,7 +10,7 @@ params:
   year: "Fifth-year PhD Candidate"
   tagline: "I study health economics and public policy through the lens of industrial organization, examining how information asymmetries affect consumer choices and firm behavior."
   photo: "images/eric.png"
-  cv_url: "https://drive.google.com/file/d/1RX1WrnUL-dvorEQ83_rccjMO0G9RoWPd/view?usp=share_link"
+  cv_url: "https://drive.google.com/file/d/17IIg4f7RVrLjqnydLNN4yLF8A62NOHz6/view?usp=share_link"
   cv_local: "/files/Ayamga-2.pdf"
   initials: "EA"
   advisor:
@@ -77,7 +77,7 @@ menu:
       url: "/#teaching"
       weight: 20
     - name: CV
-      url: "https://drive.google.com/file/d/1RX1WrnUL-dvorEQ83_rccjMO0G9RoWPd/view?usp=share_link"
+      url: "https://drive.google.com/file/d/17IIg4f7RVrLjqnydLNN4yLF8A62NOHz6/view?usp=share_link"
       weight: 30
     - name: Contact
       url: "/#contact"
