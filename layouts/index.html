@@ -173,20 +173,25 @@
   </section>
   {{ end }}
 
-  {{/* Presentations / News */}}
-  {{ with site.Data.presentations }}
-  <section id="news" aria-labelledby="news-heading">
-    <h2 id="news-heading">Presentations</h2>
-    <ul class="simple-list">
-      {{ range . }}
-      <li>
-        <span class="list-title">{{ .title }}</span>
-        <span class="list-meta"> — {{ .venue }}, {{ .date }}</span>
-      </li>
+ {{/* Presentations / News */}}
+{{ with site.Data.presentations }}
+<section id="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">Presentations</h2>
+  <ul class="simple-list">
+    {{ range . }}
+    <li>
+      <span class="list-title">{{ .title }}</span>
+      <span class="list-meta"> — {{ .venue }}, {{ .date }}</span>
+      {{ with .paper }}
+      <div class="list-meta">
+        <strong>Paper:</strong> {{ . }}
+      </div>
       {{ end }}
-    </ul>
-  </section>
-  {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
 
    {{/* Referee Service */}}
   {{ with site.Data.review }}
