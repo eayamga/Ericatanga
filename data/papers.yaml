@@ -4,7 +4,7 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: "https://ssrn.com/abstract=5784502"
+  link: "http://ssrn.com/abstract=7584738"
   abstract: "I use U.S. retail scanner data to study the effectiveness of the 2016 FDA Nutrition Facts label revision. I find only modest effects on consumer demand with limited substitution away from high-sugar products. To explain these findings, I develop and estimate a structural random-coefficients demand model with rational inattention, in which consumers face information-processing costs when acquiring nutritional information. The model estimates reveal that consumers pay little attention to the current Nutrition Facts label because of the high cognitive cost. I then use the model to compare the current labels with other much simpler labels. The results show that warning labels substantially reduced information-processing cost and sugar consumption by 36% through consumer substitution and product reformulation. Overall, our findings suggest that reducing cognitive costs through simplified FOP designs can meaningfully improve consumer welfare and shift consumption away from unhealthy products."
   job_market_paper: true
   tags: ["health economics", "industrial organization", "information asymmetry"]
@@ -26,7 +26,7 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: "https://drive.google.com/file/d/18VaPEBU7e3QpgJbGb6b5YPaT_YrJ-oSA/view?usp=sharing"
+  link: "https://ssrn.com/abstract=7535718"
   abstract: "This paper examines the impact of extreme heat exposure on consumer demand for added sugars. Using high-frequency retail scanner data combined with detailed local weather information and I find that an increase in the number of extreme hot days leads to a statistically and economically significant rise in the demand for added sugars. The effect is nonlinear, with stronger responses observed at higher temperature thresholds and during prolonged heat episodes. These findings have important implications for both climate policy and public health."
   job_market_paper: false
   tags: ["health economics", "climate", "consumer choice"]
@@ -37,12 +37,24 @@
   status: "working paper"
   venue: ""
   pdf: ""
-  link: ""
-  abstract: ""
+  link: "https://drive.google.com/file/d/1D3BOrnzv9zqnXJO1AQBDcC_b-37NgXRZ/view?usp=share_link"
+  abstract: "This paper provides the first empirical evidence on the demand- and supply-side effects of this disclosure-based labeling policy, using nationally representative Nielsen retail scanner data (2018–2023) covering nine major breakfast and snack food categories.  
+On the demand side, I find substantial heterogeneity across categories: within-category substitution away from high-sugar products is concentrated in categories with abundant low-sugar substitutes, while cross-category substitution is limited and occurs mainly within sugar tiers rather than across product types. On the supply side, manufacturers responded through modest reformulation, and product turnover disproportionately favored low-sugar items, with high-sugar products more likely to exit and new entrants skewing toward lower sugar content. These results suggest that even a disclosure-only labeling policy, without interpretive warnings or thresholds, can shift both consumer purchases and firm product strategy, but that its effectiveness depends heavily on category-specific substitution possibilities with implications for how labeling policies should be designed and evaluated."
   job_market_paper: false
   tags: ["industrial organization", "health economics", "public policy"]
 
 - title: "Information versus Prices: Optimal Nutrition Policy under Limited Consumer Attention"
+  authors: ["Eric Ayamga"]
+  year: 2026
+  status: "working paper"
+  venue: ""
+  pdf: ""
+  link: ""
+  abstract: "This paper examines the optimal design of nutrition policy when consumers pay limited attention to nutritional information. I develop a structural model of consumer demand that incorporates information processing costs and heterogeneous preferences to compare simplified nutrition labels, sugar taxes, and their combination. The analysis evaluates how these policies affect food choices, sugar consumption, consumer welfare, and firm profits, accounting for health externalities and internalities arising from underestimated health consequences. By distinguishing policies that reduce information frictions from those that alter price incentives, the paper identifies conditions under which information provision and taxation act as substitutes or complements in improving dietary outcomes."
+  job_market_paper: false
+  tags: ["industrial organization", "health economics", "public policy"]
+
+  - title: "Endogenous Firm Responses to Information Policies"
   authors: ["Eric Ayamga"]
   year: 2026
   status: "working paper"
